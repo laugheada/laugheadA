@@ -1,0 +1,81 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://laugheada.github.io/laugheadA/manifests/si-version-manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "Letter to Garland Fulton from Charles E. Rosendahl",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "A handwritten letter dated January 6, 1926. The letter was written by Vice Admiral (then Lt. Cmdr.) Charles E. Rosendahl to Captain Garland Fulton.",
+    "@language" : "en"
+  } ],
+  "license" : "https://www.si.edu/Termsofuse",
+  "attribution" : "Garland Fulton Collection, Accession XXXX-0101, National Air and Space Museum, Smithsonian Insitituion",
+  "sequences" : [ {
+    "@id" : "http://ebdfc348-179c-423a-af94-ef8b1ab47c18",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://58c02036-d2a4-4f56-96b0-7aeee85ae376",
+      "@type" : "sc:Canvas",
+      "label" : "Page 1",
+      "height" : 3282,
+      "width" : 2532,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://90747222-887f-4a11-86da-3497acccb6c4",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://ids.si.edu/ids/iiif/NASM-NASM.XXXX.0101-bx008-fd004_012/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://ids.si.edu/ids/iiif/NASM-NASM.XXXX.0101-bx008-fd004_012",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg" ],
+              "supports" : [ "sizeByH", "sizeByW", "sizeByForcedWh" ]
+            } ]
+          },
+          "height" : 3282,
+          "width" : 2532
+        },
+        "on" : "http://58c02036-d2a4-4f56-96b0-7aeee85ae376"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://952f8c07-50d6-4383-971a-33152d146ee6",
+      "@type" : "sc:Canvas",
+      "label" : "Page 2",
+      "height" : 3311,
+      "width" : 2594,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://66bb3ca2-ba49-4350-bf0d-21836a0144be",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://ids.si.edu/ids/iiif/NASM-NASM.XXXX.0101-bx008-fd004_013/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://ids.si.edu/ids/iiif/NASM-NASM.XXXX.0101-bx008-fd004_013",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg" ],
+              "supports" : [ "sizeByH", "sizeByW", "sizeByForcedWh" ]
+            } ]
+          },
+          "height" : 3311,
+          "width" : 2594
+        },
+        "on" : "http://952f8c07-50d6-4383-971a-33152d146ee6"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
