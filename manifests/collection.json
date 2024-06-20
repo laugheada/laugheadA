@@ -1,0 +1,13 @@
+{
+  "id" : "https://laugheada.github.io/laugheadA/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in laugheada/laugheadA project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://laugheada.github.io/laugheadA/manifests/si-version-manifest.json",
+    "label" : "Letter to Garland Fulton from Charles E. Rosendahl"
+  } ]
+}
