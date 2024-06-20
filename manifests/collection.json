@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://laugheada.github.io/laugheadA/manifests/si-version-manifest.json",
     "label" : "Letter to Garland Fulton from Charles E. Rosendahl"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://laugheada.github.io/laugheadA/manifests/si-version-manifest2.json",
+    "label" : "Letter to Garland Fulton from Charles E. Rosendahl"
   } ]
 }
